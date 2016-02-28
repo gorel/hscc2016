@@ -1,0 +1,4 @@
+Alice: 43%
+Bob: 14%
+Charlie: 86%
+David: 57%
