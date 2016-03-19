@@ -40,7 +40,7 @@ int main(int argc, char **argv) {
         std::getline(std::cin, names[i]);
     }
 
-    std::sort(names.begin(), names.end(), bobCmp);
+    std::stable_sort(names.begin(), names.end(), bobCmp);
 
     for (int i = 0; i < M; i++) {
         std::cout << names[i] << std::endl;
