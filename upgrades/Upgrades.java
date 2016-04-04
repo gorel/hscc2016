@@ -8,7 +8,7 @@ public class Upgrades {
         // clear line
         input.nextLine();
 
-        ArrayList<Person> names = new ArrayList<>();
+        ArrayList<Person> names = new ArrayList<Person>();
         for (int i = 0; i < N; i++) {
             names.add(new Person(input.nextLine()));
         }

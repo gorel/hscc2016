@@ -2,6 +2,8 @@
 #include <iostream>
 #include <sstream>
 #include <vector>
+#include <string.h>
+#include <strings.h>
 
 bool bobCmp(std::string a, std::string b) {
     std::string xF, xL, yF, yL;
